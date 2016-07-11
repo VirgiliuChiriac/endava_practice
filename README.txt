@@ -1,1 +1,1 @@
-"text"
+Aici am rezolvat task-ul referitor la pagina web.
