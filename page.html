@@ -9,6 +9,13 @@
 	
 	<script>
 		$(document).ready(function(){
+			var a = $(window).width();
+				if(a<481){
+					$("#ul_menu").hide();
+				}
+				if(a>=481){
+					$("#ul_menu").show();
+				}
 			$(window).resize(function(){
 				var a = $(window).width();
 				if(a<481){
@@ -33,6 +40,13 @@
 					<li class = "li_menu">PHOTOS</li>
 					<li class = "li_menu">CONTACT US</li>
 				</ul>
+			</div>
+		</div>
+		<div id = "first_stripe">
+			<div id = "first_text">
+				<p id = "ft1">LOREM IPSUM</p>
+				<p id = "ft2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				<button id="button">Read</button>
 			</div>
 		</div>
 	</body>

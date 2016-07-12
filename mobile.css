@@ -2,7 +2,19 @@
 	body {
         background-color: gold;
     }
+	/* menu */
 	#menu{
 		padding-left:10%;
+	}
+	/* first stripe */
+	#first_stripe{
+		width:130%;
+		margin-left:-15%;
+	}
+	#first_text{
+		color:#f4fff2;
+		margin:auto;
+		width:70%;
+		text-align:center;
 	}
 }

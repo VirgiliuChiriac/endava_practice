@@ -2,6 +2,7 @@
 	body {
         background-color: red;
     }
+	/* menu */
 	#menu2{
 		width:480px;
 		margin:auto;
@@ -9,5 +10,13 @@
 	}
 	.li_menu{
 		margin-left:5px;
+	}
+	/* first stripe */
+	#first_text{
+		color:#f4fff2;
+		margin:auto;
+		width:400px;
+		padding:40px;
+		text-align:center;
 	}
 }
