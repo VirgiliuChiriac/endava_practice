@@ -8,6 +8,9 @@
 		margin:auto;
 		padding-right:10px;
 	}
+	#ul_menu{
+		display:inline;
+	}
 	.li_menu{
 		margin-left:5px;
 	}

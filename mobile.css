@@ -6,6 +6,9 @@
 	#menu{
 		padding-left:10%;
 	}
+	#ul_menu{
+		display:none;
+	}
 	/* first stripe */
 	#first_stripe{
 		width:130%;

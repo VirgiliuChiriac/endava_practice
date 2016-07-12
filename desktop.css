@@ -19,7 +19,6 @@ div{
 
 #ul_menu{
 	float:right;
-	display:inline;
 	margin-top:22px;
 	color:#30c3a6;
 }
@@ -64,6 +63,9 @@ div{
 		width:768px;
 		margin:auto;
 		padding-right:10px;
+	}
+	#ul_menu{
+		display:inline;
 	}
 	.li_menu{
 		margin-left:20px;
