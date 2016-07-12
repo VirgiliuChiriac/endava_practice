@@ -1,8 +1,10 @@
 body{
 	background-color: #f4fff2;
+	font-family: "Times New Roman", Times, serif;
 }
 
-div{
+@media only screen and (min-width:880px){
+	div{
 	position: relative;
 	width:110%;
 	margin-left: -5%;
@@ -10,12 +12,12 @@ div{
 #div1{
 	border-top:1px solid #d6f5ef;
 	border-bottom:1px solid #30c3a6;
-	height:70px;
 	width:110%;
 	margin-left: -5%;
 	margin-top: 10px;
 	margin-bottom: 30px;
-	padding-top:10px;
+	padding:10px;
+	min-width:880px;
 }
 
 #menu{
@@ -28,10 +30,7 @@ div{
 	height:60px;
 }
 
-p{
-	font-family: 'Source Sans Pro', sans-serif;
-	
-}
+
 
 .p{
 	margin-left:10%;
@@ -78,4 +77,5 @@ p{
 #div5{
 	background-color:blue;
 	height:60px;
+}
 }
