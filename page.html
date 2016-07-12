@@ -2,10 +2,38 @@
 <html>
 	<head>
 	<link rel="stylesheet" type="text/css" href="desktop.css">
+	<link rel="stylesheet" type="text/css" href="tablet.css">
 	<link rel="stylesheet" type="text/css" href="mobile.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
+	<script>
+		$(document).ready(function(){
+			$(window).resize(function(){
+				var a = $(window).width();
+				if(a<481){
+					$("#ul_menu").hide();
+				}
+				if(a>=481){
+					$("#ul_menu").show();
+				}
+			});
+		});
+	</script>
+	
 	</head>
 
 	<body>
-		
+		<div id = "menu">
+			<div id = "menu2">
+				<img id = "logo" src = "endava.png">
+				<ul id = "ul_menu">
+					<li class = "li_menu">HOME</li>
+					<li class = "li_menu">ABOUT</li>
+					<li class = "li_menu">PHOTOS</li>
+					<li class = "li_menu">CONTACT US</li>
+				</ul>
+			</div>
+		</div>
 	</body>
 </html>

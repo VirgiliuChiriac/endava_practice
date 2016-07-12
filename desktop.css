@@ -1,81 +1,40 @@
 body{
 	background-color: #f4fff2;
 	font-family: "Times New Roman", Times, serif;
-}
-
-@media only screen and (min-width:880px){
-	div{
-	position: relative;
-	width:110%;
-	margin-left: -5%;
-}
-#div1{
-	border-top:1px solid #d6f5ef;
-	border-bottom:1px solid #30c3a6;
-	width:110%;
-	margin-left: -5%;
-	margin-top: 10px;
-	margin-bottom: 30px;
-	padding:10px;
-	min-width:880px;
+	font-size:16px;
 }
 
 #menu{
-	width:65%;
-	height:60px;
-	margin: auto;
+	box-shadow: 1px 1px 1px 1px #30c3a6;
+	width:110%;
+	margin-left:-5%;
 }
 
 #logo{
 	height:60px;
 }
 
-
-
-.p{
-	margin-left:10%;
-	display:inline;
+#ul_menu{
 	float:right;
-	font-size:13px;
-	color: #29a38b;
+	display:inline;
+	margin-top:22px;
+	color:#30c3a6;
 }
 
-#div2{
-	background-color:#30c3a6;
-	height:160px;
-	text-align:center;
-	padding-top:50px;
+.li_menu{
+	display:inline;
 }
 
-#lips{
-	color:#f4fff2;
-	font-size:20px;
-	margin-bottom:30px;
-}
-
-.bla{
-	color:#f4fff2;
-	font-size:17px;
-	margin: -15px;
-}
-#bla2{
-	background-color: #145246;
-	height:25px;
-	width:50px;
-	border-top:10px;
-	margin:auto;
-}
-
-#div3{
-	background-color:blue;
-	height:60px;
-}
-#div4{
-	background-color:orange;
-	height:60px;
-}
-#div5{
-	background-color:blue;
-	height:60px;
-}
+@media only screen and (min-width:769px){
+	body{
+		background-color: gold;
+	}
+	#menu2{
+		width:768px;
+		margin:auto;
+		padding-right:10px;
+	}
+	.li_menu{
+		margin-left:20px;
+	}
 }

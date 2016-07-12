@@ -2,4 +2,7 @@
 	body {
         background-color: gold;
     }
+	#menu{
+		padding-left:10%;
+	}
 }
