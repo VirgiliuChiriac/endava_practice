@@ -5,8 +5,8 @@ body{
 }
 
 div{
-	width:110%;
-	margin-left:-5%;
+	width:130%;
+	margin-left:-15%;
 }
 
 #menu{
@@ -14,7 +14,7 @@ div{
 }
 
 #logo{
-	height:60px;
+	height:53px;
 }
 
 #ul_menu{
@@ -53,7 +53,30 @@ div{
 	margin-top: 10px;
 	cursor: pointer;
 }
-
+/**/
+.line {
+    overflow: hidden;
+    text-align: center;
+}
+.line:before,
+.line:after {
+    background-color: grey;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 330px;
+}
+.line:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.line:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+/**/
 @media only screen and (min-width:769px){
 	body{
 		background-color: gold;
@@ -78,4 +101,15 @@ div{
 		padding:40px;
 		text-align:center;
 	}
+	/* first stripe */
+	#second_text{
+		margin:auto;
+		width:768px;
+		text-align:center;
+		color: black;
+		padding-top:50px;
+		padding-bottom:50px;
+	}
+	
+	
 }

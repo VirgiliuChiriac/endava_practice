@@ -1,10 +1,11 @@
+/*@media only screen and (max-device-width:480px){*/
 @media only screen and (max-width:480px){
 	body {
-        background-color: gold;
+        background-color: blue;
     }
 	/* menu */
 	#menu{
-		padding-left:10%;
+		padding-left:10px;;
 	}
 	#ul_menu{
 		display:none;
@@ -19,5 +20,23 @@
 		margin:auto;
 		width:70%;
 		text-align:center;
+	}
+	/* second stripe */
+	.line:before,
+.line:after {
+    background-color: grey;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 150px;
+}
+	#second_text{
+		margin:auto;
+		width:70%;
+		text-align:center;
+		color: black;
+		padding:50px;
 	}
 }
