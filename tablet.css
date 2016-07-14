@@ -1,11 +1,11 @@
 /*@media only screen and (max-device-width:768px){*/
-@media only screen and (max-width:768px){
+@media only screen and (max-width:768px), (max-device-width:768px){
 	body {
         background-color: red;
     }
 	/* menu */
 	#menu2{
-		width:79%;
+		width:100%;
 		margin:auto;
 	}
 	#ul_menu{
@@ -31,14 +31,15 @@
     height: 3px;
     position: relative;
     vertical-align: middle;
-    width: 30%;
+    width: 330px;
 }
 	#second_text{
 		margin:auto;
-		width:75%;
+		width:90%;
 		text-align:center;
 		color: black;
 		padding-top:50px;
-		padding-bottom:50px;
+		padding-bottom:20px;
 	}
+	/* third stripe */
 }

@@ -1,25 +1,21 @@
 /*@media only screen and (max-device-width:480px){*/
-@media only screen and (max-width:480px){
+@media only screen and (max-width:480px), (max-device-width:480px){
 	body {
         background-color: blue;
     }
+	
 	/* menu */
-	#menu{
-		padding-left:10px;;
-	}
+	
 	#ul_menu{
 		display:none;
 	}
 	/* first stripe */
-	#first_stripe{
-		width:130%;
-		margin-left:-15%;
-	}
 	#first_text{
 		color:#f4fff2;
 		margin:auto;
 		width:70%;
 		text-align:center;
+		
 	}
 	/* second stripe */
 	.line:before,
@@ -34,9 +30,12 @@
 }
 	#second_text{
 		margin:auto;
-		width:70%;
+		width:90%;
 		text-align:center;
 		color: black;
-		padding:50px;
 	}
+	/* third stripe */
+	.photo{
+	width:70%;
+}
 }
