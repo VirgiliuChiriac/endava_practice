@@ -10,6 +10,7 @@
 	}
 	#ul_menu{
 		display:inline;
+		margin-right:20px;
 	}
 	.li_menu{
 		margin-left:5px;
@@ -31,7 +32,7 @@
     height: 3px;
     position: relative;
     vertical-align: middle;
-    width: 330px;
+    width: 40%;
 }
 	#second_text{
 		margin:auto;
@@ -42,4 +43,11 @@
 		padding-bottom:20px;
 	}
 	/* third stripe */
+	#formular3{
+	margin:auto;
+	padding:30px;
+	width:90%;
+	text-align:center;
+	}
+}
 }
