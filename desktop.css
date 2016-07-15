@@ -26,9 +26,12 @@ div{
 
 .li_menu{
 	display:inline;
+	padding-bottom:10px;
+	padding-top:10px;
 }
 .li_menu:hover{
-	text-decoration: underline;
+	background-color: #555;
+    color: white;
 }
 
 #first_stripe{
@@ -167,10 +170,48 @@ form{
 	font-size:20px;
 }
 
+#last_stripe{
+	background-color: #233445;
+	margin-top:-18px;
+	padding-top:10px;
+	padding-bottom:10px;
+	height:70px;
+}
+#l2{
+	display:none;
+}
+
+.logo5{
+	width:30px;
+	float:right;
+	margin: 20px;
+}
+#ballaa{
+	width:650px;
+	margin:auto;
+}
+
+
+#ii3{
+	width:40px;
+}
+#ii4{
+	width:40px;
+}
+
+a{
+	text-decoration:none;
+	color: #30c3a6;
+	display:inline-block;
+}
+
+.a1{
+	text-decoration:none;
+	color: #f4fff2;
+	display:none;
+}
+
 @media only screen and (min-width:769px){
-	body{
-		background-color: gold;
-	}
 	/* menu */
 	#menu2{
 		width:768px;
@@ -208,4 +249,5 @@ form{
 		padding-top:50px;
 		padding-bottom:50px;
 	}
+	
 }

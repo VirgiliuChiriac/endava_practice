@@ -1,8 +1,6 @@
 /*@media only screen and (max-device-width:480px){*/
 @media only screen and (max-width:480px), (max-device-width:480px){
-	body {
-        background-color: blue;
-    }
+	
 	
 	/* menu */
 	
@@ -59,5 +57,60 @@ input[type=text] {
     margin: 8px 0;
     box-sizing: border-box;
 display:block;
+}
+
+#l2{
+	display:block;
+	list-style-type: none;
+	padding:20px;
+}
+
+.l1{
+	widows:90%;
+	text-align:center;
+	border-bottom: 1px solid #666666;
+	padding:10px;
+	color:#666666;
+	margin:auto;
+}
+
+.l1:hover{
+	background-color: #555;
+    color: white;
+}
+
+#formular3{
+	width:75%;
+}
+input[type=button], input[type=submit], input[type=reset] {
+	width:90%;
+}
+#last_stripe{
+	height:350px;
+}
+
+.logo5{
+	width:30px;
+	float:left;
+	margin: 20px;
+}
+
+#ii1{
+}
+#ii2{
+	float:right;
+}
+#ii3{
+	clear:left;
+}
+#ii4{
+	float:right;
+}
+#ballaa{
+	width:70%;
+}
+
+.a1{
+	display:block;
 }
 }

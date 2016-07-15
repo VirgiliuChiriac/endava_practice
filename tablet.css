@@ -1,8 +1,6 @@
 /*@media only screen and (max-device-width:768px){*/
 @media only screen and (max-width:768px), (max-device-width:768px){
-	body {
-        background-color: red;
-    }
+	
 	/* menu */
 	#menu2{
 		width:100%;
@@ -50,5 +48,14 @@
 	max-width:500px;
 	text-align:center;
 	}
+	#formular2{
+		margin:auto;
+		width:90%;
+		text-align:center;
+		padding-top:50px;
+		padding-bottom:50px;
+	}
+	#ballaa{
+	width:90%;
 }
 }
